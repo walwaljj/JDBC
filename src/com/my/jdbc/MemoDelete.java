@@ -15,7 +15,7 @@ public class MemoDelete {
 		Connection con=DriverManager.getConnection(url, user,pwd);
 		//또는 Connection con = DriverManager.getConnection(url, "root","multi123")
 		//----------------------------------------------------
-		//
+		///
 		//String sql="delete from memo where idx=?"
 		//pt.setInt(1,Integer.parseInt(idx));// 문자열을 정수로 만듦.
 		String sql="DELETE FROM memo WHERE name=(?)";
